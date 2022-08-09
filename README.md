@@ -1,42 +1,29 @@
-# Nuxt 3 Minimal Starter
+# nuxt3-ulid-example
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+## Overview
+
+Nuxt.js v3 で ULID を使用するサンプルプログラムです。
+以下の記事を解説するために作成したリポジトリです。
+
+An example program that uses ULID in Nuxt.js v3.
+This is a repository created to explain the following article.
+
+- [nuxt3 で ulid を使うと『secure crypto unusable, insecure Math.random not allowed』エラーが発生するときの対処方法](https://std9.jp/articles/01G9PZP64S5ESG5D20YC2CZKKJ/)
+
+## Requirement
+
+- Node.js (v16.14.2)
 
 ## Setup
 
-Make sure to install the dependencies:
+```shell
+# 依存関係のパッケージをインストール
+$ npm i
 
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
+# 開発環境で実行 (http://localhost:3000/)
+$ npm run dev
 ```
 
-## Development Server
+## Author
 
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+[twitter](https://twitter.com/hikaru_firecamp)
